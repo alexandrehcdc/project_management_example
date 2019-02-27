@@ -27,7 +27,7 @@ config :mime, :types, %{
 }
 
 config :phoenix, :format_encoders,
-  "json-api": Poison
+  "json-api": Jason
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
